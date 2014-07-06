@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/tansell/foss/buffer/ise/triple_buffer_arbiter_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="triple_buffer_arbiter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/triple_buffer_arbiter_tb/evt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">evt</obj_property>
+      <obj_property name="ObjectShortName">evt</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/input_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">input_clk</obj_property>
+      <obj_property name="ObjectShortName">input_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/output_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">output_clk</obj_property>
+      <obj_property name="ObjectShortName">output_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/input_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/expected_input_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">expected_input_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_input_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/output_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/expected_output_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">expected_output_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_output_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/addr_delay" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_delay</obj_property>
+      <obj_property name="ObjectShortName">addr_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/uut/okay" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">okay</obj_property>
+      <obj_property name="ObjectShortName">okay</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/uut/input_lock" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_lock[1:0]</obj_property>
+      <obj_property name="ObjectShortName">input_lock[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/uut/n0_buffer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">n0_buffer[1:0]</obj_property>
+      <obj_property name="ObjectShortName">n0_buffer[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/uut/n1_buffer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">n1_buffer[1:0]</obj_property>
+      <obj_property name="ObjectShortName">n1_buffer[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/uut/n2_buffer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">n2_buffer[1:0]</obj_property>
+      <obj_property name="ObjectShortName">n2_buffer[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triple_buffer_arbiter_tb/uut/output_lock" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_lock[1:0]</obj_property>
+      <obj_property name="ObjectShortName">output_lock[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+</wave_config>
